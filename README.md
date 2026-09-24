@@ -414,7 +414,7 @@ Mine, honestly, and the answer is two very different numbers depending on the cl
 
 The suite is not small. Roughly 280 hand-authored cases across a dozen eval binaries: 125 unit
 cases on tool selection, 76 golden retrieval queries, 40 end-to-end reply cases, 36 seeded from
-a real production corpus, and an exhaustive sweep that walks all 1,072 knowledge-base records
+a real production corpus, and an exhaustive sweep that walks every knowledge-base record
 every night. There is a held-out split for style fine-tunes that the training wrangler is
 written to exclude, so the candidate is judged on examples it never saw. That part I did right.
 
@@ -454,7 +454,7 @@ That's the green-light villain again, wearing a different hat.
 
 What volume are these lessons true at? An eval bounded to no scale is describing a system
 in a vacuum, and the bound belongs in the write-up rather than in the author's head. Mine is
-small: tens of conversations a day, pre-launch, sized for correctness under human review
+small: tens of conversations a day, in supervised rollout, sized for correctness under human review
 rather than for throughput. That bound is load-bearing. At ten times the volume, the cost of
 a judge call per draft starts to matter and the nightly run stops being free. At a hundred,
 the human reviewer is the bottleneck and the whole design premise changes, because the
