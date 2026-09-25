@@ -324,7 +324,7 @@ the class that's missing one at the moment it fabricates.
 With a boundary on it, because four detectors is more machinery than most systems need. The
 thing that earns a backstop is a value a reader could act on and be harmed by — a code, a
 price, a date. Tone does not qualify. Neither does a fact that is merely wrong rather than
-actionably wrong. I would not have built the fourth check if a guest had not been told the
+actionably wrong. I would not have built the fourth check if a draft had not named the
 wrong building, and I would not build a fifth on speculation.
 
 ## Part 4 — Measure the event the user experiences
